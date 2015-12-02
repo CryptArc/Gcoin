@@ -355,17 +355,17 @@ bool GetMyExternalIP(CNetAddr& ipRet)
         //  <?php echo $_SERVER["REMOTE_ADDR"]; ?>
         if (nHost == 1)
         {
-            addrConnect = CService("37.247.55.42", 80); // ip1.GroestlCoin.org
+            addrConnect = CService("52.34.102.14", 80); // ip1
 
             if (nLookup == 1)
             {
-                CService addrIP("ip1.GroestlCoin.org", 80, true);
+                CService addrIP("52.34.102.14", 80, true);
                 if (addrIP.IsValid())
                     addrConnect = addrIP;
             }
 
             pszGet = "GET / HTTP/1.1\r\n"
-                     "Host: ip1.GroestlCoin.org\r\n"
+                     "Host: platinumcrypto.com\r\n"
                      "User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)\r\n"
                      "Connection: close\r\n"
                      "\r\n";
@@ -374,11 +374,11 @@ bool GetMyExternalIP(CNetAddr& ipRet)
         }
         else if (nHost == 2)
         {
-            addrConnect = CService("37.247.55.42", 80); // ip2.GroestlCoin.org
+            addrConnect = CService("52.34.102.14", 80); // ip2
 
             if (nLookup == 1)
             {
-                CService addrIP("ip2.GroestlCoin.org", 80, true);
+                CService addrIP("platinumcrypto.com", 80, true);
                 if (addrIP.IsValid())
                     addrConnect = addrIP;
             }
