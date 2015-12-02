@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = GroestlCoin-qt
-macx:TARGET = "GroestlCoin-Qt"
+TARGET = GCoin-qt
+macx:TARGET = "GCoin-Qt"
 VERSION = 0.8.9
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
