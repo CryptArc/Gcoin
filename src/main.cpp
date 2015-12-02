@@ -34,15 +34,15 @@ unsigned int nTransactionsUpdated = 0;
 map<uint256, CBlockIndex*> mapBlockIndex;
 
 //---genesis blocks -------------------------------------------------------------------------------------
-uint256 hashGenesisBlock("0x00000ac5927c594d49cc0bdb81759d0da8297eb614683d3acb62f0703b639023");
+uint256 hashGenesisBlock("");
 uint256 hashGenesisBlockTestNet("0x00000b94ee7f94431dad6f1c72cabc18b6923a4fa648be1002938874deb4a265");
 //-------------------------------------------------------------------------------------------------------
-uint256 MainHashMerkleRoot("0x3ce968df58f9c8a752306c4b7264afab93149dbc578bd08a42c446caaa6628bb");
+uint256 MainHashMerkleRoot("");
 //--time blocks ---------------------------------------
-static const unsigned int timeGenesisBlock =1395342829;
+static const unsigned int timeGenesisBlock =1449065156;
 static const unsigned int timeGenesisBlockTestNet =1395342913;
 //-------nNonce -------------------------------------
-static const unsigned int nNonceGenesis=220035;
+static const unsigned int nNonceGenesis=0;
 static const unsigned int nNonceGenesisTestNet=873629;
 //----------------------------------------------------
 
